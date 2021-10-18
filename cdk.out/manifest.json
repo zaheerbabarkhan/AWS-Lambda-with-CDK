@@ -1,0 +1,648 @@
+{
+  "version": "14.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "AwsCloudPracticeStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "AwsCloudPracticeStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/AwsCloudPracticeStack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.278454ee1c20c69c57f5225e3e6bc2b04fb9fc7805fbc567e3fc708052422e49",
+              "id": "278454ee1c20c69c57f5225e3e6bc2b04fb9fc7805fbc567e3fc708052422e49",
+              "packaging": "zip",
+              "sourceHash": "278454ee1c20c69c57f5225e3e6bc2b04fb9fc7805fbc567e3fc708052422e49",
+              "s3BucketParameter": "AssetParameters278454ee1c20c69c57f5225e3e6bc2b04fb9fc7805fbc567e3fc708052422e49S3Bucket58D03BCF",
+              "s3KeyParameter": "AssetParameters278454ee1c20c69c57f5225e3e6bc2b04fb9fc7805fbc567e3fc708052422e49S3VersionKeyC59481EC",
+              "artifactHashParameter": "AssetParameters278454ee1c20c69c57f5225e3e6bc2b04fb9fc7805fbc567e3fc708052422e49ArtifactHash7460B682"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\construct-compat.ts:252:92)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:161:23)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:66:19)",
+              "AwsCloudPracticeStack.addFileAsset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:70:25)",
+              "new Asset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:86:40)",
+              "AssetCode.bind (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:183:20)",
+              "new Function (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:338:29)",
+              "new AwsCloudPracticeStack (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\lib\\aws-cloud-practice-stack.ts:7:17)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\bin\\aws-cloud-practice.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/HelloLambda/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloLambdaServiceRoleE071F162",
+            "trace": [
+              "new Role (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:199:18)",
+              "new Function (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:318:31)",
+              "new AwsCloudPracticeStack (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\lib\\aws-cloud-practice-stack.ts:7:17)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\bin\\aws-cloud-practice.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/HelloLambda/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloLambda3D9C82D6",
+            "trace": [
+              "new Function (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:388:35)",
+              "new AwsCloudPracticeStack (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\lib\\aws-cloud-practice-stack.ts:7:17)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\bin\\aws-cloud-practice.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/AssetParameters/278454ee1c20c69c57f5225e3e6bc2b04fb9fc7805fbc567e3fc708052422e49/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters278454ee1c20c69c57f5225e3e6bc2b04fb9fc7805fbc567e3fc708052422e49S3Bucket58D03BCF",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:16:32)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:66:19)",
+              "AwsCloudPracticeStack.addFileAsset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:70:25)",
+              "new Asset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:86:40)",
+              "AssetCode.bind (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:183:20)",
+              "new Function (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:338:29)",
+              "new AwsCloudPracticeStack (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\lib\\aws-cloud-practice-stack.ts:7:17)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\bin\\aws-cloud-practice.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/AssetParameters/278454ee1c20c69c57f5225e3e6bc2b04fb9fc7805fbc567e3fc708052422e49/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters278454ee1c20c69c57f5225e3e6bc2b04fb9fc7805fbc567e3fc708052422e49S3VersionKeyC59481EC",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:21:31)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:66:19)",
+              "AwsCloudPracticeStack.addFileAsset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:70:25)",
+              "new Asset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:86:40)",
+              "AssetCode.bind (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:183:20)",
+              "new Function (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:338:29)",
+              "new AwsCloudPracticeStack (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\lib\\aws-cloud-practice-stack.ts:7:17)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\bin\\aws-cloud-practice.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/AssetParameters/278454ee1c20c69c57f5225e3e6bc2b04fb9fc7805fbc567e3fc708052422e49/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters278454ee1c20c69c57f5225e3e6bc2b04fb9fc7805fbc567e3fc708052422e49ArtifactHash7460B682",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:26:34)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:144:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:66:19)",
+              "AwsCloudPracticeStack.addFileAsset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:355:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:70:25)",
+              "new Asset (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:86:40)",
+              "AssetCode.bind (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:183:20)",
+              "new Function (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:338:29)",
+              "new AwsCloudPracticeStack (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\lib\\aws-cloud-practice-stack.ts:7:17)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\bin\\aws-cloud-practice.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/hello/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "hello26396490",
+            "trace": [
+              "new RestApi (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:463:22)",
+              "new LambdaRestApi (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:26:5)",
+              "new AwsCloudPracticeStack (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\lib\\aws-cloud-practice-stack.ts:13:3)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\bin\\aws-cloud-practice.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/hello/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloCloudWatchRole72E7CA62",
+            "trace": [
+              "new Role (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:199:18)",
+              "LambdaRestApi._configureCloudWatchRole (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:289:18)",
+              "new RestApi (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:481:12)",
+              "new LambdaRestApi (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:26:5)",
+              "new AwsCloudPracticeStack (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\lib\\aws-cloud-practice-stack.ts:13:3)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\bin\\aws-cloud-practice.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/hello/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloAccount1140320E",
+            "trace": [
+              "LambdaRestApi._configureCloudWatchRole (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:294:22)",
+              "new RestApi (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:481:12)",
+              "new LambdaRestApi (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:26:5)",
+              "new AwsCloudPracticeStack (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\lib\\aws-cloud-practice-stack.ts:13:3)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\bin\\aws-cloud-practice.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/hello/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloDeploymentF922926Efa0f02a31e98642332b27add30ccf1e3",
+            "trace": [
+              "new Deployment (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\deployment.ts:34:21)",
+              "LambdaRestApi._configureDeployment (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:318:32)",
+              "new RestApi (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:484:10)",
+              "new LambdaRestApi (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:26:5)",
+              "new AwsCloudPracticeStack (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\lib\\aws-cloud-practice-stack.ts:13:3)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\bin\\aws-cloud-practice.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/hello/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloDeploymentStageprodCACD7E70",
+            "trace": [
+              "new Stage (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\stage.ts:136:22)",
+              "LambdaRestApi._configureDeployment (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:328:30)",
+              "new RestApi (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:484:10)",
+              "new LambdaRestApi (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:26:5)",
+              "new AwsCloudPracticeStack (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\lib\\aws-cloud-practice-stack.ts:13:3)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\bin\\aws-cloud-practice.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/hello/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloEndpoint3315769C",
+            "trace": [
+              "LambdaRestApi._configureDeployment (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:333:7)",
+              "new RestApi (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:484:10)",
+              "new LambdaRestApi (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:26:5)",
+              "new AwsCloudPracticeStack (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\lib\\aws-cloud-practice-stack.ts:13:3)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\bin\\aws-cloud-practice.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/hello/Default/{proxy+}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloproxyF67FA1CE",
+            "trace": [
+              "new Resource (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:342:22)",
+              "new ProxyResource (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:397:5)",
+              "RootResource.addProxy (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:99:12)",
+              "new LambdaRestApi (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:33:17)",
+              "new AwsCloudPracticeStack (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\lib\\aws-cloud-practice-stack.ts:13:3)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\bin\\aws-cloud-practice.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/hello/Default/{proxy+}/ANY/ApiPermission.AwsCloudPracticeStackhelloCA32438C.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloproxyANYApiPermissionAwsCloudPracticeStackhelloCA32438CANYproxy9806EB73",
+            "trace": [
+              "Function.addPermission (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:130:5)",
+              "LambdaIntegration.bind (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:41:18)",
+              "new Method (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:98:36)",
+              "ProxyResource.addMethod (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "ProxyResource.addMethod (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:419:18)",
+              "new ProxyResource (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:406:29)",
+              "RootResource.addProxy (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:99:12)",
+              "new LambdaRestApi (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:33:17)",
+              "new AwsCloudPracticeStack (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\lib\\aws-cloud-practice-stack.ts:13:3)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\bin\\aws-cloud-practice.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/hello/Default/{proxy+}/ANY/ApiPermission.Test.AwsCloudPracticeStackhelloCA32438C.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloproxyANYApiPermissionTestAwsCloudPracticeStackhelloCA32438CANYproxy4025FEDA",
+            "trace": [
+              "Function.addPermission (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:130:5)",
+              "LambdaIntegration.bind (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:49:20)",
+              "new Method (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:98:36)",
+              "ProxyResource.addMethod (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "ProxyResource.addMethod (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:419:18)",
+              "new ProxyResource (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:406:29)",
+              "RootResource.addProxy (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:99:12)",
+              "new LambdaRestApi (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:33:17)",
+              "new AwsCloudPracticeStack (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\lib\\aws-cloud-practice-stack.ts:13:3)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\bin\\aws-cloud-practice.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/hello/Default/{proxy+}/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloproxyANYDD483C02",
+            "trace": [
+              "new Method (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:116:22)",
+              "ProxyResource.addMethod (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "ProxyResource.addMethod (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:419:18)",
+              "new ProxyResource (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:406:29)",
+              "RootResource.addProxy (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:99:12)",
+              "new LambdaRestApi (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:33:17)",
+              "new AwsCloudPracticeStack (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\lib\\aws-cloud-practice-stack.ts:13:3)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\bin\\aws-cloud-practice.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/hello/Default/ANY/ApiPermission.AwsCloudPracticeStackhelloCA32438C.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloANYApiPermissionAwsCloudPracticeStackhelloCA32438CANY59963C04",
+            "trace": [
+              "Function.addPermission (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:130:5)",
+              "LambdaIntegration.bind (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:41:18)",
+              "new Method (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:98:36)",
+              "RootResource.addMethod (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "ProxyResource.addMethod (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:416:29)",
+              "new ProxyResource (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:406:29)",
+              "RootResource.addProxy (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:99:12)",
+              "new LambdaRestApi (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:33:17)",
+              "new AwsCloudPracticeStack (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\lib\\aws-cloud-practice-stack.ts:13:3)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\bin\\aws-cloud-practice.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/hello/Default/ANY/ApiPermission.Test.AwsCloudPracticeStackhelloCA32438C.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloANYApiPermissionTestAwsCloudPracticeStackhelloCA32438CANY4E543F44",
+            "trace": [
+              "Function.addPermission (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:130:5)",
+              "LambdaIntegration.bind (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:49:20)",
+              "new Method (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:98:36)",
+              "RootResource.addMethod (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "ProxyResource.addMethod (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:416:29)",
+              "new ProxyResource (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:406:29)",
+              "RootResource.addProxy (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:99:12)",
+              "new LambdaRestApi (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:33:17)",
+              "new AwsCloudPracticeStack (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\lib\\aws-cloud-practice-stack.ts:13:3)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\bin\\aws-cloud-practice.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/hello/Default/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloANY5D7FFED7",
+            "trace": [
+              "new Method (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:116:22)",
+              "RootResource.addMethod (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:95:12)",
+              "ProxyResource.addMethod (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:416:29)",
+              "new ProxyResource (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:406:29)",
+              "RootResource.addProxy (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:99:12)",
+              "new LambdaRestApi (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:33:17)",
+              "new AwsCloudPracticeStack (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\lib\\aws-cloud-practice-stack.ts:13:3)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\bin\\aws-cloud-practice.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.ts:22:24)",
+              "C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:166:5",
+              "visit (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:231:5)",
+              "visit (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:227:5)",
+              "injectMetadataResources (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:157:3)",
+              "Object.synthesize (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:18:3)",
+              "App.synth (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\stage.ts:94:23)",
+              "process.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\app.ts:64:45)",
+              "Object.onceWrapper (events.js:520:26)",
+              "process.emit (events.js:400:28)",
+              "process.emit (domain.js:470:12)",
+              "process.emit (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\source-map-support\\source-map-support.js:516:21)"
+            ]
+          }
+        ],
+        "/AwsCloudPracticeStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.ts:31:27)",
+              "C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:166:5",
+              "visit (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:231:5)",
+              "visit (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:227:5)",
+              "injectMetadataResources (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:157:3)",
+              "Object.synthesize (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:18:3)",
+              "App.synth (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\stage.ts:94:23)",
+              "process.<anonymous> (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\@aws-cdk\\core\\lib\\app.ts:64:45)",
+              "Object.onceWrapper (events.js:520:26)",
+              "process.emit (events.js:400:28)",
+              "process.emit (domain.js:470:12)",
+              "process.emit (C:\\Users\\HYCUBE PC 19\\Desktop\\Learning Material\\AWS-Cloud-Practice\\node_modules\\source-map-support\\source-map-support.js:516:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "AwsCloudPracticeStack"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.handler = void 0;
+async function handler(event, context) {
+    console.log('request:', JSON.stringify(event, undefined, 2));
+    return {
+        statusCode: 200,
+        headers: { 'Content-Type': 'text/plain' },
+        body: `Hello, CDK! You've hit ${event.path}\n`,
+    };
+}
+exports.handler = handler;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaGVsbG8uanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJoZWxsby50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFNTyxLQUFLLFVBQVUsT0FBTyxDQUM1QixLQUEyQixFQUMzQixPQUFnQjtJQUVoQixPQUFPLENBQUMsR0FBRyxDQUFDLFVBQVUsRUFBRSxJQUFJLENBQUMsU0FBUyxDQUFDLEtBQUssRUFBRSxTQUFTLEVBQUUsQ0FBQyxDQUFDLENBQUMsQ0FBQztJQUU3RCxPQUFPO1FBQ04sVUFBVSxFQUFFLEdBQUc7UUFDZixPQUFPLEVBQUUsRUFBRSxjQUFjLEVBQUUsWUFBWSxFQUFFO1FBQ3pDLElBQUksRUFBRSwwQkFBMEIsS0FBSyxDQUFDLElBQUksSUFBSTtLQUM5QyxDQUFDO0FBQ0gsQ0FBQztBQVhELDBCQVdDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtcclxuXHRBUElHYXRld2F5UHJveHlFdmVudCxcclxuXHRBUElHYXRld2F5UHJveHlSZXN1bHQsXHJcblx0Q29udGV4dCxcclxufSBmcm9tICdhd3MtbGFtYmRhJztcclxuXHJcbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBoYW5kbGVyKFxyXG5cdGV2ZW50OiBBUElHYXRld2F5UHJveHlFdmVudCxcclxuXHRjb250ZXh0OiBDb250ZXh0XHJcbik6IFByb21pc2U8QVBJR2F0ZXdheVByb3h5UmVzdWx0PiB7XHJcblx0Y29uc29sZS5sb2coJ3JlcXVlc3Q6JywgSlNPTi5zdHJpbmdpZnkoZXZlbnQsIHVuZGVmaW5lZCwgMikpO1xyXG5cclxuXHRyZXR1cm4ge1xyXG5cdFx0c3RhdHVzQ29kZTogMjAwLFxyXG5cdFx0aGVhZGVyczogeyAnQ29udGVudC1UeXBlJzogJ3RleHQvcGxhaW4nIH0sXHJcblx0XHRib2R5OiBgSGVsbG8sIENESyEgWW91J3ZlIGhpdCAke2V2ZW50LnBhdGh9XFxuYCxcclxuXHR9O1xyXG59XHJcbiJdfQ==
